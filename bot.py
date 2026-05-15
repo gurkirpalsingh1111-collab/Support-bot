@@ -53,9 +53,9 @@ def start(message):
     markup.row(btn2, btn3)
     markup.row(btn4, btn5)
 
-    bot.send_photo(
+    bot.send_animation(
         message.chat.id,
-        open("logo.jpg", "rb"),
+        open("welcome.mp4", "rb"),
 
         caption=(
             "🔥 *Welcome To Anony Support Bot*\n\n"
